@@ -1,0 +1,643 @@
+{
+  "metadata": {
+    "reportTitle": "Stocking Strategy KPI Dashboard",
+    "generatedDate": "2026-06-02T22:31:40.023351",
+    "version": "2.0",
+    "author": "Dashboard System",
+    "description": "Investment analysis - GitHub optimized"
+  },
+  "summary": {
+    "totalInvestment": 105.04,
+    "activeProjects": 30,
+    "totalDivisions": 5,
+    "completionRate": 75,
+    "currency": "USD",
+    "reportingPeriod": "Q2 2026"
+  },
+  "divisions": [
+    {
+      "id": "DIV1",
+      "name": "Division 1",
+      "investment": 31.51,
+      "projects": 20,
+      "status": "Active",
+      "growthRate": 12.5,
+      "region": "Americas"
+    },
+    {
+      "id": "DIV2",
+      "name": "Division 2",
+      "investment": 26.26,
+      "projects": 18,
+      "status": "Active",
+      "growthRate": 10.3,
+      "region": "EMEA"
+    },
+    {
+      "id": "DIV3",
+      "name": "Division 3",
+      "investment": 26.26,
+      "projects": 15,
+      "status": "Active",
+      "growthRate": 15.7,
+      "region": "APAC"
+    },
+    {
+      "id": "DIV4",
+      "name": "Division 4",
+      "investment": 15.76,
+      "projects": 12,
+      "status": "Active",
+      "growthRate": 8.2,
+      "region": "Americas"
+    },
+    {
+      "id": "DIV5",
+      "name": "Division 5",
+      "investment": 5.25,
+      "projects": 8,
+      "status": "Active",
+      "growthRate": 6.8,
+      "region": "EMEA"
+    }
+  ],
+  "owners": [
+    {
+      "id": "OWN001",
+      "name": "Asha",
+      "investment": 4.13,
+      "workStreams": [
+        "Operations"
+      ],
+      "email": "asha@company.com",
+      "department": "Operations"
+    },
+    {
+      "id": "OWN002",
+      "name": "Aurelio",
+      "investment": 47.07,
+      "workStreams": [
+        "Operations"
+      ],
+      "email": "aurelio@company.com",
+      "department": "Operations"
+    },
+    {
+      "id": "OWN003",
+      "name": "Diego",
+      "investment": 24.65,
+      "workStreams": [
+        "Operations"
+      ],
+      "email": "diego@company.com",
+      "department": "Operations"
+    },
+    {
+      "id": "OWN004",
+      "name": "Krish ",
+      "investment": 11.69,
+      "workStreams": [
+        "Operations"
+      ],
+      "email": "krish.@company.com",
+      "department": "Operations"
+    },
+    {
+      "id": "OWN005",
+      "name": "Mahesh",
+      "investment": 16.01,
+      "workStreams": [
+        "Operations"
+      ],
+      "email": "mahesh@company.com",
+      "department": "Operations"
+    },
+    {
+      "id": "OWN006",
+      "name": "Ramamani",
+      "investment": 0.57,
+      "workStreams": [
+        "Operations"
+      ],
+      "email": "ramamani@company.com",
+      "department": "Operations"
+    },
+    {
+      "id": "OWN007",
+      "name": "Smitha",
+      "investment": 0.91,
+      "workStreams": [
+        "Operations"
+      ],
+      "email": "smitha@company.com",
+      "department": "Operations"
+    }
+  ],
+  "projects": [
+    {
+      "id": "PRJ14664",
+      "division": "Division 4",
+      "divisionId": "DIV4",
+      "owner": "Mahesh",
+      "ownerId": "OWN006",
+      "workStream": "0 USAGE",
+      "investment": 1.06,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 63,
+      "priority": "High"
+    },
+    {
+      "id": "PRJ12504",
+      "division": "Division 4",
+      "divisionId": "DIV4",
+      "owner": "Aurelio",
+      "ownerId": "OWN002",
+      "workStream": "0 USAGE",
+      "investment": 0.72,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 53,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ12630",
+      "division": "Division 5",
+      "divisionId": "DIV5",
+      "owner": "Aurelio",
+      "ownerId": "OWN002",
+      "workStream": "0 USAGE",
+      "investment": 0.66,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 79,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ12528",
+      "division": "Division 3",
+      "divisionId": "DIV3",
+      "owner": "Aurelio",
+      "ownerId": "OWN005",
+      "workStream": "0 USAGE",
+      "investment": 0.65,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 77,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ12498",
+      "division": "Division 3",
+      "divisionId": "DIV3",
+      "owner": "Aurelio",
+      "ownerId": "OWN003",
+      "workStream": "0 USAGE",
+      "investment": 0.62,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 97,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ10504",
+      "division": "Division 4",
+      "divisionId": "DIV4",
+      "owner": "Aurelio",
+      "ownerId": "OWN004",
+      "workStream": "0 USAGE",
+      "investment": 0.54,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 53,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ12694",
+      "division": "Division 4",
+      "divisionId": "DIV4",
+      "owner": "Krish ",
+      "ownerId": "OWN003",
+      "workStream": "0 USAGE",
+      "investment": 0.5,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 93,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ12648",
+      "division": "Division 3",
+      "divisionId": "DIV3",
+      "owner": "Aurelio",
+      "ownerId": "OWN006",
+      "workStream": "0 USAGE",
+      "investment": 0.49,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 97,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ10510",
+      "division": "Division 5",
+      "divisionId": "DIV5",
+      "owner": "Aurelio",
+      "ownerId": "OWN003",
+      "workStream": "0 USAGE",
+      "investment": 0.47,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 59,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ13586",
+      "division": "Division 1",
+      "divisionId": "DIV1",
+      "owner": "Mahesh",
+      "ownerId": "OWN006",
+      "workStream": "0 USAGE",
+      "investment": 0.45,
+      "status": "Pending",
+      "reserveCheck": "Reserve Fo",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 85,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ15204",
+      "division": "Division 4",
+      "divisionId": "DIV4",
+      "owner": "Mahesh",
+      "ownerId": "OWN007",
+      "workStream": "0 USAGE",
+      "investment": 0.45,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 53,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ14768",
+      "division": "Division 3",
+      "divisionId": "DIV3",
+      "owner": "Diego",
+      "ownerId": "OWN005",
+      "workStream": "0 USAGE",
+      "investment": 0.4,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 67,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ15240",
+      "division": "Division 5",
+      "divisionId": "DIV5",
+      "owner": "Krish ",
+      "ownerId": "OWN001",
+      "workStream": "0 USAGE",
+      "investment": 0.36,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 89,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ13437",
+      "division": "Division 2",
+      "divisionId": "DIV2",
+      "owner": "Mahesh",
+      "ownerId": "OWN004",
+      "workStream": "0 USAGE",
+      "investment": 0.35,
+      "status": "Pending",
+      "reserveCheck": "Reserve Fo",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 86,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ11199",
+      "division": "Division 4",
+      "divisionId": "DIV4",
+      "owner": "Aurelio",
+      "ownerId": "OWN006",
+      "workStream": "0 USAGE",
+      "investment": 0.34,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 98,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ12523",
+      "division": "Division 3",
+      "divisionId": "DIV3",
+      "owner": "Aurelio",
+      "ownerId": "OWN007",
+      "workStream": "4 to 10",
+      "investment": 0.33,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 72,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ12708",
+      "division": "Division 3",
+      "divisionId": "DIV3",
+      "owner": "Aurelio",
+      "ownerId": "OWN003",
+      "workStream": "0 USAGE",
+      "investment": 0.33,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 57,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ11490",
+      "division": "Division 5",
+      "divisionId": "DIV5",
+      "owner": "Aurelio",
+      "ownerId": "OWN003",
+      "workStream": ">10",
+      "investment": 0.33,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 89,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ11181",
+      "division": "Division 1",
+      "divisionId": "DIV1",
+      "owner": "Aurelio",
+      "ownerId": "OWN002",
+      "workStream": "1 to 3",
+      "investment": 0.33,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 80,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ15483",
+      "division": "Division 3",
+      "divisionId": "DIV3",
+      "owner": "Krish ",
+      "ownerId": "OWN006",
+      "workStream": "0 USAGE",
+      "investment": 0.33,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 82,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ10700",
+      "division": "Division 5",
+      "divisionId": "DIV5",
+      "owner": "Aurelio",
+      "ownerId": "OWN004",
+      "workStream": "4 to 10",
+      "investment": 0.32,
+      "status": "Pending",
+      "reserveCheck": "Already Re",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 99,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ12646",
+      "division": "Division 1",
+      "divisionId": "DIV1",
+      "owner": "Aurelio",
+      "ownerId": "OWN004",
+      "workStream": ">10",
+      "investment": 0.32,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 95,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ11026",
+      "division": "Division 1",
+      "divisionId": "DIV1",
+      "owner": "Aurelio",
+      "ownerId": "OWN001",
+      "workStream": "0 USAGE",
+      "investment": 0.32,
+      "status": "Pending",
+      "reserveCheck": "Already Re",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 75,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ11187",
+      "division": "Division 2",
+      "divisionId": "DIV2",
+      "owner": "Aurelio",
+      "ownerId": "OWN001",
+      "workStream": "0 USAGE",
+      "investment": 0.32,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 86,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ13587",
+      "division": "Division 2",
+      "divisionId": "DIV2",
+      "owner": "Mahesh",
+      "ownerId": "OWN007",
+      "workStream": "0 USAGE",
+      "investment": 0.32,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 86,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ10144",
+      "division": "Division 4",
+      "divisionId": "DIV4",
+      "owner": "Aurelio",
+      "ownerId": "OWN001",
+      "workStream": "0 USAGE",
+      "investment": 0.32,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 93,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ11606",
+      "division": "Division 1",
+      "divisionId": "DIV1",
+      "owner": "Aurelio",
+      "ownerId": "OWN007",
+      "workStream": "0 USAGE",
+      "investment": 0.31,
+      "status": "Pending",
+      "reserveCheck": "Already Re",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 55,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ10436",
+      "division": "Division 1",
+      "divisionId": "DIV1",
+      "owner": "Aurelio",
+      "ownerId": "OWN006",
+      "workStream": "1 to 3",
+      "investment": 0.29,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 85,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ15500",
+      "division": "Division 5",
+      "divisionId": "DIV5",
+      "owner": "Diego",
+      "ownerId": "OWN002",
+      "workStream": "0 USAGE",
+      "investment": 0.29,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 99,
+      "priority": "Medium"
+    },
+    {
+      "id": "PRJ12647",
+      "division": "Division 2",
+      "divisionId": "DIV2",
+      "owner": "Aurelio",
+      "ownerId": "OWN005",
+      "workStream": "0 USAGE",
+      "investment": 0.28,
+      "status": "Pending",
+      "reserveCheck": "No Reserve",
+      "startDate": "2025-01-01",
+      "expectedCompletion": "2027-12-31",
+      "progress": 96,
+      "priority": "Medium"
+    }
+  ],
+  "kpis": {
+    "onTimeDelivery": 87.5,
+    "budgetAdherence": 92.3,
+    "qualityScore": 94.1,
+    "stakeholderSatisfaction": 88.7,
+    "riskMitigationScore": 85.2
+  },
+  "trends": {
+    "quarterlyInvestment": [
+      {
+        "quarter": "Q1 2026",
+        "investment": 24.16
+      },
+      {
+        "quarter": "Q2 2026",
+        "investment": 26.26
+      },
+      {
+        "quarter": "Q3 2026",
+        "investment": 28.36
+      },
+      {
+        "quarter": "Q4 2026",
+        "investment": 26.26
+      }
+    ],
+    "projectCompletionRate": [
+      {
+        "month": "Jan",
+        "rate": 70
+      },
+      {
+        "month": "Feb",
+        "rate": 72
+      },
+      {
+        "month": "Mar",
+        "rate": 74
+      },
+      {
+        "month": "Apr",
+        "rate": 75
+      },
+      {
+        "month": "May",
+        "rate": 75
+      }
+    ]
+  },
+  "notes": [
+    "GitHub-optimized version with top 30 projects",
+    "All investment figures in millions USD",
+    "Total records in source: 15,733",
+    "Generated: June 02, 2026"
+  ]
+}
