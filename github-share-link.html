@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository - BOP-PROJECTS</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .repo-info {
+            background: #f8f9fa;
+            border-left: 4px solid #0366d6;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .repo-link {
+            display: inline-block;
+            background: #0366d6;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        .repo-link:hover {
+            background: #0256c7;
+        }
+        .json-data {
+            background: #282c34;
+            color: #abb2bf;
+            padding: 20px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            margin: 20px 0;
+        }
+        .copy-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .copy-btn:hover {
+            background: #218838;
+        }
+        .label {
+            font-weight: bold;
+            color: #0366d6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 GitHub Repository Share</h1>
+        
+        <div class="repo-info">
+            <p><span class="label">Username:</span> ramamas3</p>
+            <p><span class="label">Repository:</span> BOP-PROJECTS</p>
+            <p><span class="label">GitHub URL:</span></p>
+            <a href="https://github.com/ramamas3/BOP-PROJECTS" class="repo-link" target="_blank">
+                Visit Repository on GitHub
+            </a>
+        </div>
+
+        <h2>📋 Repository JSON Data</h2>
+        <div class="json-data" id="jsonData">
+{
+  "github": {
+    "username": "ramamas3",
+    "repository": "BOP-PROJECTS",
+    "url": "https://github.com/ramamas3/BOP-PROJECTS",
+    "clone_url": "https://github.com/ramamas3/BOP-PROJECTS.git",
+    "ssh_url": "git@github.com:ramamas3/BOP-PROJECTS.git"
+  },
+  "share_links": {
+    "web": "https://github.com/ramamas3/BOP-PROJECTS",
+    "raw": "https://raw.githubusercontent.com/ramamas3/BOP-PROJECTS/main/",
+    "api": "https://api.github.com/repos/ramamas3/BOP-PROJECTS"
+  }
+}
+        </div>
+        <button class="copy-btn" onclick="copyJSON()">Copy JSON</button>
+
+        <h2>🔗 Quick Links</h2>
+        <div class="repo-info">
+            <p><strong>Clone with HTTPS:</strong></p>
+            <code>git clone https://github.com/ramamas3/BOP-PROJECTS.git</code>
+            <br><br>
+            <p><strong>Clone with SSH:</strong></p>
+            <code>git clone git@github.com:ramamas3/BOP-PROJECTS.git</code>
+        </div>
+
+        <h2>📤 Share This Link</h2>
+        <div class="repo-info">
+            <p>Share this HTML file or use the direct GitHub link:</p>
+            <input type="text" id="shareLink" value="https://github.com/ramamas3/BOP-PROJECTS" 
+                   style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;" readonly>
+            <button class="copy-btn" onclick="copyLink()">Copy Link</button>
+        </div>
+    </div>
+
+    <script>
+        function copyJSON() {
+            const jsonText = document.getElementById('jsonData').textContent;
+            navigator.clipboard.writeText(jsonText).then(() => {
+                alert('JSON copied to clipboard!');
+            });
+        }
+
+        function copyLink() {
+            const linkInput = document.getElementById('shareLink');
+            linkInput.select();
+            navigator.clipboard.writeText(linkInput.value).then(() => {
+                alert('Link copied to clipboard!');
+            });
+        }
+    </script>
+</body>
+</html>
