@@ -1,0 +1,40 @@
+{
+  "summary": {
+    "total_records": 15733,
+    "total_investment": 105.040006258,
+    "avg_investment": 0.006676413033623594,
+    "max_investment": 1.0599083999999999,
+    "min_investment": 0.0
+  },
+  "by_owner": {
+    "Asha": 4.13,
+    "Aurelio": 47.07,
+    "Diego": 24.65,
+    "Krish ": 11.69,
+    "Mahesh": 16.01,
+    "Ramamani": 0.57,
+    "Smitha": 0.91
+  },
+  "by_install_check": {
+    "1 to 100": 21.34,
+    "101 to 500": 29.0,
+    ">500": 48.19,
+    "Zero Installs": 6.51
+  },
+  "by_usage": {
+    "0 USAGE": 86.42,
+    "1 to 3": 8.45,
+    "4 to 10": 4.97,
+    ">10": 5.2
+  },
+  "by_dtbh": {
+    "DOB 2-5 years": 23.12,
+    "DOB < 2 years": 57.21,
+    "DOB>5": 24.71
+  },
+  "by_reserve": {
+    "Already Reserved": 5.07,
+    "No Reserve Impact": 96.37,
+    "Reserve Forecast": 3.61
+  }
+}
